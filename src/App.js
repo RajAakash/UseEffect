@@ -1,5 +1,7 @@
 import './App.css'
 import { ChangeImageOnHover } from './ChangeImageOnHover'
+import { ChangeImageOnScroll } from './ChangeImageOnScroll'
+import Syntax from './Syntax'
 // import Increment from './Increment'
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div className='App'>
       {/* <Increment /> */}
       {/* <ChangeImageOnHover /> */}
+      {/* <Syntax /> */}
+      <ChangeImageOnScroll />
     </div>
   )
 }
